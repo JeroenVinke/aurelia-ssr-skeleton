@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Aurelia } from 'aurelia-framework';
 import { PLATFORM } from 'aurelia-pal';
-import bootstrapper from './ssr-bootstrapper-webpack';
+import bootstrapper from 'aurelia-ssr-bootstrapper-webpack';
 
 async function configure(aurelia: Aurelia) {
   aurelia.use
